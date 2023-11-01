@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nível do Heroi</title>
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1>Nível do Heroi</h1>
+    <hr class="text-dark">
+    <section class="pt-3 mt-5">
+        <form action="#" onsubmit= "return false">
+            <div class="d-flex justify-content-center">
+                <div class="me-3">
+                    <label for="heroName">
+                        <p>Informe o nome do Heroi:</p>
+                    </label>
+                    <input type="text" id="heroName" name="heroName">
+                    <img src="../assets/heroi.png" alt="Heroi" class="ms-4">
+                </div>
+                <div class="ms-4">
+                    <label for="XPoints">
+                        <p>Quantos pontos de experiência?</p>
+                    </label>
+                    <input type="number" name="XPoints" id="XPoints">
+                    <img src="../assets/xp.png" alt="Logo XP" class="ms-4">
+                </div>
+
+            </div>
+            <div class="d-flex justify-content-center mt-4">
+                <input type="button" id="showText" value="Veja o nível" class="btn btn-primary p-2">
+                <input type="button" id="resetButton" value="Refazer" class="btn btn-warning ms-4 p-2">
+            </div>
+        </form>
+        <div id="levelResult" class="d-flex justify-content-center mt-5">
+        </div>
+    </section>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
