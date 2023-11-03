@@ -1,1 +1,0 @@
-# Calculadora de partidas rankeadas
