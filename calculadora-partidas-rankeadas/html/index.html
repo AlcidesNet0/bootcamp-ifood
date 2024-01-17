@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - Partidas Rankeadas</title>
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <h1 class="mt-2">Calculadora de Partidas Ranqueadas </h1>
+    <!-- <hr> -->
+    <main>
+        <form action="#" onsubmit="return false">
+            <div class="stats-container">
+                <!-- <img src="../assets/983613.jpg" alt="" width="700px"> -->
+                <div class="victory-box">
+                    <h2>Vitórias</h2>
+                    <input type="number" name="victoryPoints" id="victoryPoints" autofocus>
+                    <!-- <p>12</p> -->
+                </div>
+                <div class="defeat-box">
+                    <h2>Derrotas</h2>
+                    <input type="number" name="defeatPoints" id="defeatPoints" autofocus>
+                    <!-- <p>25</p> -->
+                </div>
+            </div>
+            <div class="resultButtons">
+                <input class="btn btn-primary" type="button" value="Veja o nível" id="showText">
+                <input class="btn btn-danger" type="button" value="Reiniciar" id="resetButton">
+            </div>
+            <div id="levelResult"></div>
+        </form>
+    </main>
+</div>
+    <script src="../js/scripts.js"></script>
+</body>
+
+</html>
+

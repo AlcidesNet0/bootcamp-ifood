@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    min-height: 100vh;
+    overflow: hidden;
+    background-image: url(../assets/background-image-joystick.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 2.25rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.victory-box,
+.defeat-box {
+    text-align: center;
+}
+
+h2,
+p {
+    font-size: 2rem;
+}
+
+h2 {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
+
+.victory-box>h2,
+.victory-box>p,
+#victoryPoints {
+    color: darkcyan;
+}
+
+.defeat-box>h2,
+.defeat-box>p,
+#defeatPoints {
+    color: crimson;
+}
+
+.resultButtons {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+#showText,
+#resetButton {
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 2rem;
+    border-radius: 0.25rem;
+}
+
+.textResult {
+    text-align: center;
+}
+
+#victoryPoints, 
+#defeatPoints {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0;
+    width: 100px;
+    border-color: black;
+}
+
+#levelResult {
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: bolder;
+}
+
+#imagem {
+    margin-bottom: 1rem;
+}
