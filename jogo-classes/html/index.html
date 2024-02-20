@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Classes de um jogo</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../src/custom.css">
+
+    <!-- Popper.js -->
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+     <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+
+
 </head>
-<body>
-    
+
+<body class="bg-body-secondary">
+    <main>
+        <h4 class="text-center pt-5 title">Clique no herói e veja a sua ação</h4>
+        <div id="carouselExampleIndicators" class="carousel carousel-dark slide d-flex bg-body-secondary">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active "
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2" class=""></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3" class=""></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4" class=""></button>
+            </div>
+            <div class="carousel-inner d-flex align-items-center">
+                <div class="carousel-item active">
+                    <img id="warrior" src="../assets/guerreiro.png" class="d-block mx-auto" role="button" tabindex="0"
+                        alt="Imagem de um guerreiro" data-bs-toggle="popover" data-bs-trigger="focus"
+                        data-bs-custom-class="custom-popover-warrior" data-bs-content=" ">
+                </div>
+                <div class="carousel-item">
+                    <img id="wizard" src="../assets/mago.png" class="d-block mx-auto" role="button" tabindex="0"
+                        alt="Imagem de um mago" data-bs-toggle="popover" data-bs-trigger="focus"
+                        data-bs-custom-class="custom-popover-wizard" data-bs-content=" ">
+                </div>
+                <div class="carousel-item">
+                    <img id="monk" src="../assets/monge.png" class="d-block mx-auto" role="button" tabindex="0"
+                        alt="Imagem de um monge" data-bs-toggle="popover" data-bs-trigger="focus"
+                        data-bs-custom-class="custom-popover-monk" data-bs-content=" ">
+                </div>
+                <div class="carousel-item">
+                    <img id="ninja" src="../assets/ninja.png" class="d-block mx-auto" role="button" tabindex="0"
+                        alt="Imagem de um ninja" data-bs-toggle="popover" data-bs-trigger="focus"
+                        data-bs-custom-class="custom-popover-ninja" data-bs-content=" ">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon icon-black" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <i class="carousel-control-next-icon icon-black" aria-hidden="true"></i>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+    <script src="../js/script.js"></script>
 </body>
+
 </html>
