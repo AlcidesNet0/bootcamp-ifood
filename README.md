@@ -39,7 +39,7 @@ Dessa forma, coloca-se em prática todo o conhecimento adquirido nas aulas dos c
       <td>03</td>
       <td>Escrevendo as Classes de um Jogo</td>
       <td align="center">
-        <a href="">
+        <a href="https://github.com/AlcidesNet0/bootcamp-ifood/tree/main/jogo-classes">
            <img align="center" alt="Material de Apoio" src="https://img.shields.io/badge/Ver%20Repositorio-30A3DC?style=for-the-badge">
         </a>
       </td>    
@@ -98,3 +98,28 @@ A depender da faixa do número do saldo de vitórias, o texto pode exibir o rank
 </div>
 
 ***
+
+# Desafio 3: Escrevendo as Classes de um Jogo
+
+Para esse último desafio, novos conceitos foram utilizados, juntamente com os aprendidos anteriormente:
+
+* Manipulação da DOM, através de captura de elementos;
+* Estruturas de decisão;
+* Operadores;
+* Variáveis;
+* Laços de repetição;
+* Classes e objetos;
+
+De forma a trazer um pouco mais de criatividade, esse projeto também utilizou Bootstrap, fazendo uso de seus componentes como 'carousel' e 'popover'. Assim, o site oferece um slide de cada herói, que, ao ser clicado, exibe uma caixa de mensagem contendo um conteúdo específico para cada herói.
+
+Esse conteúdo específico foi determinado a partir da criação de uma classe Herói que foi dinamicamente alterada através das instâncias de cada objeto.  
+
+## Linguagens e ferramentas utilizadas:
+
+<div style="display: inline-block">
+ <img align="center" alt="HTML5" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
+ <img align="center" alt="CSS3" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
+ <img align="center" alt="JavaScript" height="40" width="50" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg">
+ <img align="center" alt="Bootstrap" height="40" width="50" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/bootstrap/bootstrap-original.svg"> 
+ <img align="center" alt="Node.js" height="40" width="50" src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg">
+</div>
